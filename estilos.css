@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/*------barra de navegacion-------*/
+
+.container-fluid{
+    flex-direction: column;
+    background-color:rgba(167, 167, 167, 0.062);
+    box-shadow: 3px 3px 3px 3px #0d6dfd2a;
+    
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: rgb(184, 41, 41);
+    
+}
+/*---------contenido principal---------*/
+.titulo-principal h1{
+    flex-direction: column;
+    text-align: center;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.titulo-principal h2{
+    flex-direction: column;
+    text-align: center;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* -- IMAGENES--*/
+.carousel-slide{
+    margin: 1%;
+}
+
+/*---------publicidad del sitio---------*/
+/*titulo principal*/
+.publicidad h3{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.imagenes-publicidad img{
+
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    max-width: 335px;
+}
+
+
+/*-----estrategia responsive-------*/
+
+
+@media (min-width: 578px){
+
+
+/* titulo principal*/    
+        .titulo-principal h1{
+        font-size: x-large;
+        margin: 7px; 
+}
+/*publicidad del sitio (imagenes)*/
+.imagenes-publicidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+}
+.fotos img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+
+
+
+
+
+/*------3-razones-para-conocer*/
+
+.carousel-inner{
+    display: flex;
+    width: auto;
+    font-size: xx-large;
+}
+
+}
+
+@media (min-width: 992px){
+
+
+/*publicidad del sitio (titulo)*/
+    .publicidad h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+ }
+
+
+/*-------galeria fotografica------*/
+.fotos img{
+
+    margin: auto;
+    padding: 5px;
+    max-width: 345px;
+}
+
+.galeria-de-fotos h1{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+}
+/*----------donde-dormir------------*/
+.card{
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+
