@@ -138,9 +138,9 @@
 .galeria-de-fotos .fotos {
     display: grid;
     grid-template-columns: 50% 50%;
-    width: 450px ;
-    max-width: 500px ;
-    grid-auto-rows: 25% 25% 25% 25% ;
-    height: 800px ;
+    width: 676px;
+    grid-auto-rows: 25% 25% 25% 25%;
+    height: 800px;
+
 }
 
