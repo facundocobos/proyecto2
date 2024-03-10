@@ -1,0 +1,56 @@
+
+/*---------contenido principal---------*/
+.contenido-principal {
+
+.titulo-principal h1{
+    flex-direction: column;
+    text-align: center;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.titulo-principal h2{
+    flex-direction: column;
+    text-align: center;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+/* -- IMAGENES--*/
+.carousel-slide{
+    margin: 1%;
+}
+
+}
+
+
+/*---------publicidad del sitio---------*/
+/*titulo principal*/
+
+.publicidad {
+
+.titulo-publicidad h3{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.imagenes-publicidad img{
+
+    display: flex;
+    margin: auto;
+    padding: 7px;
+    max-width: 335px;
+}
+
+}
+
+//---pie de pagina//
+
+.pie-de-pagina {
+
+    
+}

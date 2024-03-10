@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@import "_/sections/index";
+@import "_/sections/barra-de-navegacion";
+
+
+/*-----estrategia responsive-------*/
+
+
+@media (min-width: 578px){
+
+
+/* titulo principal*/    
+        .titulo-principal h1{
+        font-size: x-large;
+        margin: 7px; 
+}
+/*publicidad del sitio (imagenes)*/
+.imagenes-publicidad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    padding: auto;
+}
+.fotos img{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: auto;
+    width: auto;
+}
+
+/*------3-razones-para-conocer*/
+
+.carousel-inner{
+    display: flex;
+    width: auto;
+    font-size: xx-large;
+}
+
+}
+
+@media (min-width: 992px){
+
+
+/*publicidad del sitio (titulo)*/
+    .publicidad h3{
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: xx-large;
+ }
+
+
+/*-------galeria fotografica------*/
+.fotos img{
+
+    margin: auto;
+    padding: 5px;
+    max-width: 345px;
+}
+
+.galeria-de-fotos h1{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+}
+/*----------donde-dormir------------*/
+.card{
+    display: flex;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    margin: 10px;
+    padding: 20px;
+}
+
+.galeria-de-fotos .fotos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 676px;
+    grid-auto-rows: 25% 25% 25% 25%;
+    height: 800px;
+
+}
+
