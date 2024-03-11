@@ -10,3 +10,23 @@
     background-color: rgb(184, 41, 41);
     
 }
+
+//------pie de pagina--------//
+
+.pie-pagina {
+
+    .pie-pagina-principal {
+
+        background-color: rgba(0, 0, 0, 0.356);
+        align-items: center;
+        display: grid;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .pie-pagina-principal h1 {
+
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+}
