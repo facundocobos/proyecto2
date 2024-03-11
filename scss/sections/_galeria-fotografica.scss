@@ -1,0 +1,8 @@
+.galeria-de-fotos .fotos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 676px;
+    grid-auto-rows: 25% 25% 25% 25%;
+    height: 800px;
+
+}
